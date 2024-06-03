@@ -7,21 +7,23 @@
     --fundo-senha:#f77810;
     --fundo-texto:#00d435;
     --borda:#0075FF;
-    --fonte: "Bebas Neue", sans-serif;
+    --font: "Bebas Neue", sans-serif;
 }
 
 body{
     color:var(--cor-da-letra);
     background-color: var(--cor-da-fundo);
     font-family: var(--fonte);
-
-    .conteudo{
+ }
+.conteudo{
         text-align: center;
         font-size: 100%;
 
-    }
-    .titulo-princiapal{
-        font-size: 35px;
+ }
+.titulo-princiapal{
+        font-size: 67px;
         font-family: var(--fonte2);
-    }
-}
+ }
+.titulo-secundario{
+        font-size: 34px;
+ }
